@@ -5,17 +5,16 @@
     "sheldon-bot-3": "bin/sheldon-bot-3.js"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@aws-sdk/client-ssm": "^3.327.0",
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
-    "aws-cdk": "2.46.0",
-    "aws-sdk": "^2.1243.0",
+    "aws-cdk": "2.78.0",
+    "esbuild": "^0.17.18",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.9.1",
@@ -24,10 +23,9 @@
   "dependencies": {
     "@aws-cdk/aws-iam": "^1.179.0",
     "@types/aws-lambda": "^8.10.107",
-    "aws-cdk-lib": "2.46.0",
+    "aws-cdk-lib": "2.75.1",
     "constructs": "^10.0.0",
     "discord-interactions": "^3.2.0",
-    "esbuild": "^0.15.11",
     "source-map-support": "^0.5.21"
   }
 }
